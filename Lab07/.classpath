@@ -7,5 +7,7 @@
 	<classpathentry kind="lib" path="lib/HikariCP-3.1.0.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-api-1.7.25.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-jdk14-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/jgrapht-core-1.1.0.jar"/>
+	<classpathentry kind="lib" path="/Simulazione_20170607_soluzione/lib/jgrapht-core-1.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -22,11 +22,41 @@ public class Responsible {
 		return name;
 	}
 
+	
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + id;
+		return result;
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Responsible other = (Responsible) obj;
+		if (id != other.id)
+			return false;
+		return true;
+	}
+
 
 	@Override
 	public String toString() {
-		return id + " " + name;
+		StringBuilder builder = new StringBuilder();
+		builder.append(name);
+		return builder.toString();
 	}
+
+
+
 	
 	
 

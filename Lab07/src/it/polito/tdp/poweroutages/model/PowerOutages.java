@@ -86,7 +86,7 @@ public class PowerOutages {
 		builder.append(eventBegan);
 		builder.append(", eventFinished=");
 		builder.append(eventFinished);
-		builder.append("]");
+		builder.append("]\n");
 		return builder.toString();
 	}
 
