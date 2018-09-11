@@ -1,18 +1,12 @@
 package it.polito.tdp.poweroutages.model;
 
-import java.awt.font.GraphicAttribute;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.lang.model.util.SimpleAnnotationValueVisitor6;
-import javax.print.attribute.standard.NumberOfDocuments;
-import javax.swing.text.AttributeSet.CharacterAttribute;
-import javax.tools.Diagnostic;
 
 import org.jgrapht.Graph;
 import org.jgrapht.Graphs;
 import org.jgrapht.graph.DefaultWeightedEdge;
-import org.jgrapht.graph.ListenableDirectedGraph;
 import org.jgrapht.graph.SimpleDirectedWeightedGraph;
 
 import it.polito.tdp.poweroutages.db.PowerOutageDAO;
